@@ -1,0 +1,1203 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 75vh;
+  display: block;
+  flex-wrap: wrap;
+  }
+  header{
+      width: 100%;
+      height: 80px;
+      top: 0;
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: rgb(26, 26, 219);
+      background-size: cover;
+    }
+    body div #home{
+      left: 800px;
+      top: 17.5px;
+      position:absolute;
+      font-family:  "Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: red;
+      width: 120px;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transition-property: box-shadow, transform;
+      transition: box-shadow, transform;
+      float: right ;
+      
+    }
+    #home:hover, #home:focus, #home:active{
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    body div #py{
+      left: 1000px;
+      top:  17.5px;
+      position: absolute;
+      font-family:  "Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: red;
+      width: 120px;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transition-property: box-shadow, transform;
+      transition: box-shadow, transform;
+      float: right;
+      
+    }
+    #py:hover, #py:focus, #py:active{
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      }
+    body div #aws{
+        left: 1200px;
+        top:  17.5px;
+        position: absolute;
+        font-family:  "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: red;
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        -webkit-transition-property: box-shadow, transform;
+        transition: box-shadow, transform;
+        float: right;
+        
+      }
+      #aws:hover, #aws:focus, #aws:active{
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+
+header img{
+left: 80px;
+top:0;
+bottom: 0;
+width: 100%;
+position: absolute;
+width: 183px;
+height: 80px;
+
+background: url(logo.jpeg);
+}
+body div #image1{
+  left: 0;
+  top: 80px;
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  background-size: cover;
+}
+body div #welcome{
+  font-size: 50px;
+  left: 60px;
+  top: 850px;
+  position: absolute;
+  color: #fff;
+}
+body div #wt{
+  top: 1040px;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(28, 196, 28);
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  background-image: linear-gradient(yellow,red,orange);
+  padding-top: 100px;
+  padding-bottom: 4000px;
+  
+}
+body div #pyt{
+  top: 1150px;
+  font-family: sans-serif;
+  font-size: 20px;
+  position: absolute;
+  color: black;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding-top: 100px;
+  padding-left: 20px;
+  line-height: 40px;
+}
+body div #bn{
+  top: 1350px;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  position: absolute;
+  color: rgb(20, 230, 20);
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-top: 80px;
+
+}
+body div #adv1{
+  top: 1450px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 80px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+body div #adv2{
+  top: 1500px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 80px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+body div #adv3{
+  top: 1550px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 110px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+body div #adv4{
+  top: 1600px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 140px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+body div #adv5{
+  top: 1650px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 140px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+body div #adv6{
+  top: 1700px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 170px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+body div #r1{
+  top: 1700px;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  position: absolute;
+  color: rgb(28, 196, 28);
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 250px;
+}
+#vid1{
+  top: 2100px;
+  position: absolute;
+  width: 400px; 
+  height:250px;
+  padding-left: 100px;
+}
+#vid2{
+  top: 2100px;
+  position: absolute;
+  padding-left: 550px;
+  width: 400px; 
+  height:250px;
+}
+#vid3{
+  top: 2100px;
+  position: absolute;
+  padding-left: 1000px;
+  width: 400px; 
+  height:250px;
+}
+#pvid1{
+ top: 2330px;
+ position: absolute;
+ padding-left: 100px;
+ font-size: 30px;
+ letter-spacing: 1px;
+}
+#pvid2{
+  top: 2330px;
+  position: absolute;
+  padding-left: 620px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#pvid3{
+  top: 2330px;
+  position: absolute;
+  padding-left: 1050px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#link1{
+  top: 2750px;
+  position: absolute;
+  padding-left: 110px;
+  cursor: pointer;
+  font-size: 20px ;
+  letter-spacing: 2px;
+}
+#pimg1{
+  top: 2500px;
+  position: absolute;
+  width: 400px; 
+  height:250px;
+  padding-left: 100px;
+}
+#link2{
+  top: 2750px;
+  position: absolute;
+  padding-left: 590px; 
+  cursor: pointer;
+  font-size: 20px ;
+  letter-spacing: 2px;
+}
+#pimg2{
+  top: 2500px;
+  position: absolute;
+  padding-left: 550px;
+  width: 400px; 
+  height:250px;
+}
+#link3{
+  top: 2750px;
+  position: absolute;
+  padding-left: 1070px;
+  cursor: pointer;
+  font-size: 20px ;
+  letter-spacing: 2px;
+}
+#pimg3{
+  top: 2500px;
+  position: absolute;
+  padding-left: 1000px;
+  width: 400px; 
+  height:250px;
+}
+#dis{
+  top: 2800px;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  position: absolute;
+  color: rgb(17, 218, 17);
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-top: 80px;
+}
+#dis1{
+ top: 2820px;
+ position: absolute;
+ font-family: sans-serif;
+ color: black;
+ font-size: 20px;
+ padding-top: 170px;
+ padding-left: 20px;
+ letter-spacing: 2px;
+ word-spacing: 2px;
+ line-height: 30px;
+}
+#dis2{
+ top: 2870px;
+ position: absolute;
+ font-family: sans-serif;
+ color: black;
+ font-size: 20px;
+ padding-top: 170px;
+ padding-left: 20px;
+ letter-spacing: 2px;
+ word-spacing: 2px;
+ line-height: 30px;
+}
+#dis3{
+  top: 2950px;
+  position: absolute;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 170px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+#dis4{
+  top: 3030px;
+  position: absolute;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 170px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+#dis5{
+  top: 3110px;
+  position: absolute;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 170px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+#dis6{
+  top: 3220px;
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-top: 170px;
+  padding-left: 80px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+  border-bottom: black;
+}
+#wtaws{
+  top: 3480px;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(28, 196, 28);
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+#wtawsans{
+  top: 3480px;
+  font-family: sans-serif;
+  font-size: 20px;
+  position: absolute;
+  color: black;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding-top: 100px;
+  padding-left: 20px;
+  line-height: 40px;
+}
+#bnaws{
+  top: 3700px;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(28, 196, 28);
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+#bnaws1{
+  top: 3650px;
+  position: absolute;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 170px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+#bnaws2{
+  top: 3780px;
+  position: absolute;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 170px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+#bnaws3{
+  top: 3910px;
+  position: absolute;
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 170px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+#r2{
+  top: 4000px;
+  width: 100%;
+  font-family: "Roboto" sans-serif;
+  position: absolute;
+  color: rgb(28, 196, 28);
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 250px;
+}
+#vid4{
+  top: 4450px;
+  position: absolute;
+  width: 400px; 
+  height:250px;
+  padding-left: 100px;
+}
+
+#avid4{
+  top: 4680px;
+  position: absolute;
+  padding-left: 150px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#vid5{
+  top: 4450px;
+  position: absolute;
+  width: 400px; 
+  height:250px;
+  padding-left: 550px;
+}
+#avid5{
+  top: 4680px;
+  position: absolute;
+  padding-left: 590px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#vid6{
+  top: 4450px;
+  position: absolute;
+  width: 400px; 
+  height:250px;
+  padding-left: 1000px;
+}
+#avid6{
+  top: 4680px;
+  position: absolute;
+  padding-left: 1000px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#aimg1{
+  top: 4800px;
+  position: absolute;
+  width: 400px; 
+  height:250px;
+  padding-left: 100px;
+}
+#link4{
+  top: 5050px;
+  position: absolute;
+  padding-left: 188px;
+  cursor: pointer;
+  font-size: 20px ;
+  letter-spacing: 2px;
+}
+#aimg2{
+  top: 4800px;
+  position: absolute;
+  width: 400px; 
+  height:250px;
+  padding-left: 550px;
+}
+#link5{
+  top: 5050px;
+  position: absolute;
+  padding-left: 640px;
+  cursor: pointer;
+  font-size: 20px ;
+  letter-spacing: 2px;
+}
+#aimg3{
+  top: 4800px;
+  position: absolute;
+  width: 400px; 
+  height:250px;
+  padding-left: 1000px;
+}
+#link6{
+  top: 5050px;
+  position: absolute;
+  padding-left: 1100px;
+  cursor: pointer;
+  font-size: 20px ;
+  letter-spacing: 2px;
+}
+@media only screen and (max-width:600px){
+  body{
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+    display: block;
+    flex-wrap: wrap;
+    overflow: hidden;
+    }
+    header{
+        width: 100%;
+        height: 80px;
+        top: 0;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(26, 26, 219);
+        background-size: cover;
+      }
+      body div #home{
+        left: 220px;
+        top: 17.5px;
+        position:absolute;
+        font-family:  "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: red;
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        -webkit-transition-property: box-shadow, transform;
+        transition: box-shadow, transform;
+        float: right ;
+        
+      }
+      #home:hover, #home:focus, #home:active{
+        box-shadow: 0 0 20px rgba(119, 116, 116, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      body div #py{
+        left: 360px;
+        top:  17.5px;
+        position: absolute;
+        font-family:  "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: red;
+        width: 120px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        -webkit-transition-property: box-shadow, transform;
+        transition: box-shadow, transform;
+        float: right;
+        
+      }
+      #py:hover, #py:focus, #py:active{
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        }
+      body div #aws{
+          left: 420px;
+          top:  17.5px;
+          position: absolute;
+          font-family:  "Roboto", sans-serif;
+          font-size: 18px;
+          font-weight: bold;
+          background-color: red;
+          width: 120px;
+          padding: 10px;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          border-radius: 5px;
+          cursor: pointer;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+          box-shadow: 0 0 20px rgba(0,0,0,0.5);
+          -webkit-transition-property: box-shadow, transform;
+          transition: box-shadow, transform;
+          float: right;
+          
+        }
+        #aws:hover, #aws:focus, #aws:active{
+          box-shadow: 0 0 20px rgba(0,0,0,0.5);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+  
+  header img{
+  left: 10px;
+  top:0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  width: 183px;
+  height: 80px;
+  
+  background: url(logo.jpeg);
+  }
+  body div #image1{
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    background-size: cover;
+  }
+  body div #welcome{
+    font-size: 50px;
+    left: 60px;
+    top: 850px;
+    position: absolute;
+    color: #fff;
+  }
+  body div #wt{
+    top: 1040px;
+    width: 100%;
+    font-family: "Roboto" sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(28, 196, 28);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-image: linear-gradient(yellow,red,orange);
+    padding-top: 100px;
+    padding-bottom: 4000px;
+    
+  }
+  body div #pyt{
+    top: 1150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-top: 100px;
+    padding-left: 20px;
+    line-height: 40px;
+  }
+  body div #bn{
+    top: 1350px;
+    width: 100%;
+    font-family: "Roboto" sans-serif;
+    position: absolute;
+    color: rgb(20, 230, 20);
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-top: 80px;
+  
+  }
+  body div #adv1{
+    top: 1450px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  body div #adv2{
+    top: 1500px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  body div #adv3{
+    top: 1550px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 110px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  body div #adv4{
+    top: 1600px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  body div #adv5{
+    top: 1650px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  body div #adv6{
+    top: 1700px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 170px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  body div #r1{
+    top: 1700px;
+    width: 100%;
+    font-family: "Roboto" sans-serif;
+    position: absolute;
+    color: rgb(28, 196, 28);
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 250px;
+  }
+  #vid1{
+    top: 2100px;
+    position: absolute;
+    width: 400px; 
+    height:250px;
+    padding-left: 100px;
+  }
+  #vid2{
+    top: 2100px;
+    position: absolute;
+    padding-left: 550px;
+    width: 400px; 
+    height:250px;
+  }
+  #vid3{
+    top: 2100px;
+    position: absolute;
+    padding-left: 1000px;
+    width: 400px; 
+    height:250px;
+  }
+  #pvid1{
+   top: 2330px;
+   position: absolute;
+   padding-left: 100px;
+   font-size: 30px;
+   letter-spacing: 1px;
+  }
+  #pvid2{
+    top: 2330px;
+    position: absolute;
+    padding-left: 620px;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  #pvid3{
+    top: 2330px;
+    position: absolute;
+    padding-left: 1050px;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  #link1{
+    top: 2750px;
+    position: absolute;
+    padding-left: 110px;
+    cursor: pointer;
+    font-size: 20px ;
+    letter-spacing: 2px;
+  }
+  #pimg1{
+    top: 2500px;
+    position: absolute;
+    width: 400px; 
+    height:250px;
+    padding-left: 100px;
+  }
+  #link2{
+    top: 2750px;
+    position: absolute;
+    padding-left: 590px; 
+    cursor: pointer;
+    font-size: 20px ;
+    letter-spacing: 2px;
+  }
+  #pimg2{
+    top: 2500px;
+    position: absolute;
+    padding-left: 550px;
+    width: 400px; 
+    height:250px;
+  }
+  #link3{
+    top: 2750px;
+    position: absolute;
+    padding-left: 1070px;
+    cursor: pointer;
+    font-size: 20px ;
+    letter-spacing: 2px;
+  }
+  #pimg3{
+    top: 2500px;
+    position: absolute;
+    padding-left: 1000px;
+    width: 400px; 
+    height:250px;
+  }
+  #dis{
+    top: 2800px;
+    width: 100%;
+    font-family: "Roboto" sans-serif;
+    position: absolute;
+    color: rgb(17, 218, 17);
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-top: 80px;
+  }
+  #dis1{
+   top: 2820px;
+   position: absolute;
+   font-family: sans-serif;
+   color: black;
+   font-size: 20px;
+   padding-top: 170px;
+   padding-left: 20px;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   line-height: 30px;
+  }
+  #dis2{
+   top: 2870px;
+   position: absolute;
+   font-family: sans-serif;
+   color: black;
+   font-size: 20px;
+   padding-top: 170px;
+   padding-left: 20px;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   line-height: 30px;
+  }
+  #dis3{
+    top: 2950px;
+    position: absolute;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  #dis4{
+    top: 3030px;
+    position: absolute;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  #dis5{
+    top: 3110px;
+    position: absolute;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  #dis6{
+    top: 3220px;
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-left: 80px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+    border-bottom: black;
+  }
+  #wtaws{
+    top: 3480px;
+    width: 100%;
+    font-family: "Roboto" sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(28, 196, 28);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  #wtawsans{
+    top: 3480px;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-top: 100px;
+    padding-left: 20px;
+    line-height: 40px;
+  }
+  #bnaws{
+    top: 3700px;
+    width: 100%;
+    font-family: "Roboto" sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(28, 196, 28);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  #bnaws1{
+    top: 3650px;
+    position: absolute;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  #bnaws2{
+    top: 3780px;
+    position: absolute;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  #bnaws3{
+    top: 3910px;
+    position: absolute;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-top: 170px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 30px;
+  }
+  #r2{
+    top: 4000px;
+    width: 100%;
+    font-family: "Roboto" sans-serif;
+    position: absolute;
+    color: rgb(28, 196, 28);
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 250px;
+  }
+  #vid4{
+    top: 4450px;
+    position: absolute;
+    width: 400px; 
+    height:250px;
+    padding-left: 100px;
+  }
+  
+  #avid4{
+    top: 4680px;
+    position: absolute;
+    padding-left: 150px;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  #vid5{
+    top: 4450px;
+    position: absolute;
+    width: 400px; 
+    height:250px;
+    padding-left: 550px;
+  }
+  #avid5{
+    top: 4680px;
+    position: absolute;
+    padding-left: 590px;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  #vid6{
+    top: 4450px;
+    position: absolute;
+    width: 400px; 
+    height:250px;
+    padding-left: 1000px;
+  }
+  #avid6{
+    top: 4680px;
+    position: absolute;
+    padding-left: 1000px;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  #aimg1{
+    top: 4800px;
+    position: absolute;
+    width: 400px; 
+    height:250px;
+    padding-left: 100px;
+  }
+  #link4{
+    top: 5050px;
+    position: absolute;
+    padding-left: 188px;
+    cursor: pointer;
+    font-size: 20px ;
+    letter-spacing: 2px;
+  }
+  #aimg2{
+    top: 4800px;
+    position: absolute;
+    width: 400px; 
+    height:250px;
+    padding-left: 550px;
+  }
+  #link5{
+    top: 5050px;
+    position: absolute;
+    padding-left: 640px;
+    cursor: pointer;
+    font-size: 20px ;
+    letter-spacing: 2px;
+  }
+  #aimg3{
+    top: 4800px;
+    position: absolute;
+    width: 400px; 
+    height:250px;
+    padding-left: 1000px;
+  }
+  #link6{
+    top: 5050px;
+    position: absolute;
+    padding-left: 1100px;
+    cursor: pointer;
+    font-size: 20px ;
+    letter-spacing: 2px;
+  }
+}
